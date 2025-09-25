@@ -4,43 +4,64 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sweet Crumbs-Contact us</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-<body style="background-color: darksalmon;">
+<body>
    <header>
-    <nav>
-         <a href="../index.html">Home</a>
-        <a href="./products.html">Products</a>
-        <a href="./about.html">About Us</a>
-        <a href="./contact.html">Contact Us</a>
-    </nav>
-    <h1>Contact Us</h1>
-    <p>we'd love to hear from you!</p>
+   <nav class="navbar">
+            <div class="nav-left">
+              <a href="#" class="nav-logo">
+                <h1 class="logo">SWEETCRUMBS</h1>
+              </a>
+              <ul class="nav-menu">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="./about.html">About</a></li>
+                <li><a href="./products.html">Menu</a></li>
+                <li><a href="./contact.html">Contact Us</a></li>
+              </ul>
+            </div>
+            <div class="nav-right">
+            <p class="phone">+27 649481648</p>
+            <a href="" class="btn">Order Now</a>
+            </div>
+        </nav>
    </header>
-   <section class="contact-info">
-    <h2>Our details</h2>
-    <p><strong>Address:</strong> 62 voortrekker, Polokwane, SA</p>
-    <p><strong>Phone:</strong> +27 83 286 1303</p>
-    <p><strong>Email:</strong> iconsiststress64@gmail.com</p>
-   </section>
-   <section class="map">
-     <h2>Find Us</h2>
-     <!--Google Maps embed-->
-     <iframe src="https://maps.app.goo.gl/NcFpx2dE7nheAByi6" width="100%" height="300" style="border: 0;" allowfullscreen="" loading="lazy"></iframe>
-     <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d7294.989262959349!2d29.46383933325153!3d-23.9075328!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sza!4v1756223150369!5m2!1sen!2sza" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>"
-   </section>
-   <section class="contact-form">
-     <h2>Send Us a Message</h2>
-     <form>
-        <label for="name">Full Name:</label>
-        <input type="text" id="name" name="name" required>
+   <section class="contact-us" id="contact">
+    <h1 class="section-title">Contact Us</h1>
+    <div class="section-content">
+      <div class="contact-details">
+         <div>
+          <i class="fa-solid fa-location-crosshairs"></i>
+          <p>Polokwane, Limpopo, 0600</p>
+         </div>
+          <div>
+          <i class="fa-solid fa-envelope"></i>
+          <p>email@gmail.com</p>
+         </div>
+          <div>
+            <i class="fa-regular fa-clock"></i>
+          <p>Monday - Saturday: 10:00 AM - 10:00 PM</p>
+         </div>
+          <div>
+            <i class="fa-regular fa-clock"></i>
+          <p>Sunday Closed</p>
+         </div>
+          <div>
+            <i class="fa-solid fa-globe"></i>
+          <p>www.sweetcrumbs.com</p>
+         </div>
+      </div>
+      <div class="contact-form">
+        <form action="">
+          <input type="text" placeholder="Your Full Name">
+          <input type="email" placeholder="Your Email">
+          <textarea name="" id="" placeholder="Your Message"></textarea>
+          <button type="submit" class="submit">Submit</button>
 
-        <label for="email">Email Address:</label>
-        <input type="text" id="email" name="email" required>
-
-        <label for="message">Message:</label>
-        <textarea type="text" id="message" name="message" rows="5" required></textarea>
-        <button type="submit">Send Message</button>
-     </form>
-   </section> 
+        </form>
+      </div>
+    </div>
+   </section>
 </body>
 </html>
