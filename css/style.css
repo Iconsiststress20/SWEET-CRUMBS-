@@ -278,7 +278,8 @@ display: none;
   padding: 2.5rem 0;
 }
 .cheese-cake .wrapper .cheese-card .img img{
- height: 20rem;
+ /*height: 20rem;*/
+ width: 100%;
 }
 .cheese-cake .wrapper .cheese-card .content h3{
   color: #fff;
@@ -418,5 +419,38 @@ footer{
 }
 .footer .credits span{
   color: var(--main-color);
+}
+/* tablets and small laptops*/
+@media all and (max-width:992px){
+ html{
+  font-size: 55%;
+ }
+ .header .logo img{
+  height: 9rem;
+}
+}
+/* small devices (tablets) */
+@media(max-width: 768px){
+  .header .icons .menu-icon{
+    display: inline-block;
+  }
+  .header .navbar{
+    position: absolute;
+    top: 100%;
+    right: -100%;
+    width: 30rem;
+    background-color: #fff;
+    height: 80vh;
+  }
+  .header .navbar .active{
+    right: 0;
+  }
+  .header .navbar a{
+    color: var(--main-color);
+    display: block;
+    font-size: 2rem;
+    padding:  0.5rem;
+    margin: 1.5rem;
+  }
 }
 
