@@ -8,60 +8,86 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-   <header>
-   <nav class="navbar">
-            <div class="nav-left">
-              <a href="#" class="nav-logo">
-                <h1 class="logo">SWEETCRUMBS</h1>
-              </a>
-              <ul class="nav-menu">
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="./about.html">About</a></li>
-                <li><a href="./products.html">Menu</a></li>
-                <li><a href="./contact.html">Contact Us</a></li>
-              </ul>
-            </div>
-            <div class="nav-right">
-            <p class="phone">+27 649481648</p>
-            <a href="" class="btn">Order Now</a>
-            </div>
+   <header class="header">
+    <a href="" class="logo"><img src="./assets/Logo 1.png"/></a>
+        <nav class="navbar">
+            <a href="../index.html">Home</a>
+            <a href="./products.html">Menu</a>
+            <a href="./about.html">About Us</a>
+            <a href="./contact.html">Contact</a>
+            <a href="./Enquiry.html">Review</a>
         </nav>
-   </header>
-   <section class="contact-us" id="contact">
-    <h1 class="section-title">Contact Us</h1>
-    <div class="section-content">
-      <div class="contact-details">
-         <div>
-          <i class="fa-solid fa-location-crosshairs"></i>
-          <p>Polokwane, Limpopo, 0600</p>
-         </div>
-          <div>
-          <i class="fa-solid fa-envelope"></i>
-          <p>email@gmail.com</p>
-         </div>
-          <div>
-            <i class="fa-regular fa-clock"></i>
-          <p>Monday - Saturday: 10:00 AM - 10:00 PM</p>
-         </div>
-          <div>
-            <i class="fa-regular fa-clock"></i>
-          <p>Sunday Closed</p>
-         </div>
-          <div>
-            <i class="fa-solid fa-globe"></i>
-          <p>www.sweetcrumbs.com</p>
-         </div>
-      </div>
-      <div class="contact-form">
-        <form action="">
-          <input type="text" placeholder="Your Full Name">
-          <input type="email" placeholder="Your Email">
-          <textarea name="" id="" placeholder="Your Message"></textarea>
-          <button type="submit" class="submit">Submit</button>
+        <div class="icons">
+            <div class="search-icon"><i class="fas fa-search"></i></div>
+            <div class="cart-icon"><i class="fas fa-shopping-cart"></i></div>
+            <div class="menu-icon"><i class="fas fa-bars"></i></div>
+        </div>
+            <div class="search-form">
+                <input 
+                type="search" 
+                name="search" 
+                id="search-box" 
+                placeholder="search here...">
+                <label for="search-box" class="fas fa-search"></label>
+            </div>
+            <div class="cart-items-container">
+                <div class="cart-items">
+                    <span class="fas fa-times"></span>
+                    <img src="./assets/download (1).jpeg" alt=""/>
+                    <div class="content">
+                        <h3>Chocolate Brownies</h3>
+                        <div class="price">R49.99</div>
+                    </div>
 
-        </form>
-      </div>
+                </div>
+                 <div class="cart-items-container">
+                <div class="cart-items">
+                    <span class="fas fa-times"></span>
+                    <img src="./assets/Croissant.jpeg" alt=""/>
+                    <div class="content">
+                        <h3>Croissant</h3>
+                        <div class="price">R20.00</div>
+                    </div>
+
+                </div>
+            </div>
+             <div class="cart-items-container">
+                <div class="cart-items">
+                    <span class="fas fa-times"></span>
+                    <img src="./assets/Chocolate chip Cookie.jpeg" alt=""/>
+                    <div class="content">
+                        <h3>Chocolate chip Cookie</h3>
+                        <div class="price">R9.99</div>
+                    </div>
+
+                </div>
+                <a href="order now" class="btn">Order Now</a>
+            </div>
+            </div>
+   </header>
+  <section class="contact" id="contact">
+    <h1 class="title"><span>contact</span> us</h1>
+    <div class="contents">
+      <iframe src="https://maps.app.goo.gl/NcFpx2dE7nheAByi6"></iframe>
+      <form action="">
+        <h3>get in touch</h3>
+        <div class="input-box">
+          <span class="fas fa-user"></span>
+          <input type="text"name="name" placeholder="name">
+        </div>
+         <div class="input-box">
+          <span class="fas fa-envelope"></span>
+          <input type="text"name="emsil" placeholder="email">
+        </div>
+         <div class="input-box">
+          <span class="fas fa-phone"></span>
+          <input type="text"name="phone" placeholder="phone">
+        </div>
+        <a href="" class="btn">contact now</a>
+      </form>
     </div>
-   </section>
+  </section>
+   
+   
 </body>
 </html>
